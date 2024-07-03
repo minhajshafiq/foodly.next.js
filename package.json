@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@octokit/rest": "^21.0.0",
     "cypress": "^13.13.0",
     "next": "14.2.4",
     "react": "^18",
@@ -20,7 +21,7 @@
     "sass": "^1.77.6"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.14.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
