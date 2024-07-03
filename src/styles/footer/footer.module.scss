@@ -1,0 +1,58 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__section {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    width: 5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__icon {
+    margin-right: 0.5rem;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__socialLink {
+    color: white;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #aaa;
+    }
+  }
+
+  &__socialIcon {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  &__bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+  }
+}
