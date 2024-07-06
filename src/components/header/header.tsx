@@ -26,7 +26,7 @@ const Header: React.FC = () => {
             </li>
             <li className={styles.header__navbar__list__item}>
               <Link href="/signup" passHref>
-                <button>S'inscrire</button>
+                <button role="signup">S&apos;inscrire</button>
               </Link>
             </li>
           </React.Fragment>

@@ -119,8 +119,8 @@ const SignUp: React.FC = () => {
               <span className={styles.error_message}>{errors.password}</span>
             )}
           </div>
-          <button className={styles.form_button} type="submit">
-            S'inscrire
+          <button role="inscriptioncheckout" className={styles.form_button} type="submit">
+            S&apos;inscrire
           </button>
         </form>
         <p className={styles.login_message}>
