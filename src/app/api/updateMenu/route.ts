@@ -1,16 +1,15 @@
-
 import { Octokit } from "@octokit/rest";
 import { NextRequest, NextResponse } from 'next/server';
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const AUTH_TOKEN = process.env.AUTH_TOKEN;
 const GIST_ID = process.env.GIST_ID;
 
-if (!GITHUB_TOKEN || !GIST_ID) {
-  throw new Error("GITHUB_TOKEN and GIST_ID must be provided");
+if (!AUTH_TOKEN || !GIST_ID) {
+  throw new Error("AUTH_TOKEN and GIST_ID must be provided");
 }
 
 const octokit = new Octokit({
-  auth: GITHUB_TOKEN as string,
+  auth: AUTH_TOKEN as string,
 });
 
 export async function POST(req: NextRequest) {
